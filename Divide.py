@@ -44,4 +44,4 @@ class Solution:
         return min(max(result, -(2 ** 31)), 2 ** 31 - 1)
 
 
-print Solution().divide(93080086464465442190, 1)
+print Solution().divide(4, 5)

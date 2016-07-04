@@ -58,7 +58,7 @@ class Solution:
             lA = e
         return self.reverseBetween(headA,B,C)
 
-res = Solution().runWithList([1,2,3,4,5,6,7,8],2,5)
+res = Solution().runWithList([1,2,3,4,5,6,7,8],1,5)
 output = []
 while res is not None:
     output.append(str(res.val))
